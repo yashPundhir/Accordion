@@ -1,3 +1,7 @@
+body {
+	background-color: #151515;
+	color: #f2f2f2;
+}
 .accordian_body {
 	max-width: 600px;
 	margin: 0em auto;
@@ -10,7 +14,7 @@
 
 .faq {
 	width: 100%;
-	background-color: #4caf50;
+	background-color: #353535;
 	border-radius: 8px;
 	margin: 0em 0em 1.4em;
 	padding: 0.7em 1.4em;
@@ -24,7 +28,7 @@
 
 .faq .faq_header h3 {
 	font-size: 1.2em;
-	font-weight: bold;
+	font-weight: 500;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	margin: 0em;
 	padding: 0em;
@@ -35,16 +39,18 @@
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	margin: 1em 0em 0em;
 	padding: 0em;
+	font-weight: 300;
 }
 
 .faq .faq_header .show_btn {
 	width: 24px;
 	height: 24px;
-	background-color: black;
+	background-color: #000;
 	outline: none;
 	box-shadow: none;
 	border: none;
-	color: white;
+	color: #f2f2f2;
+	font-weight: 500;
 	margin: 0em;
 	border-radius: 120px;
 	cursor: pointer;
